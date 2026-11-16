@@ -22,8 +22,12 @@ export default async function Home() {
 
   return (
     <main className="mx-auto max-w-6xl p-8">
-      <h1 className="text-3xl font-bold">StyleNest</h1>
-      <p className="mt-2 text-gray-400">Your new favourite clothing store.</p>
+      <section className="rounded-2xl bg-linear-to-r from-pink-500 to-purple-600 p-10">
+        <h1 className="text-4xl font-bold">New Season Styles</h1>
+        <p className="mt-2 text-lg">
+          Discover shirts, dresses, shoes and bags picked just for you.
+        </p>
+      </section>
 
       <ProductGrid products={products} />
     </main>
